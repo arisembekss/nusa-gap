@@ -39,14 +39,24 @@
 
     </head>
     <body>
-        <div class="app">
-            <a href="page-two.html"><h1>Apache Cordova</h1></a>
-            <div id="deviceready" class="blink">
+        <div class="app" onclick="openref()">
+            <center>
+            <img src="img/logo.png" onclick="location.replace('page-two.html')">
+            <h2 onclick="location.replace('page-two.html')">Test</h2>
+            </center>
+            <!-- <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Page Two</p>
                 <p class="event received">Device is Ready</p>
-            </div>
+            </div> -->
         </div>
+        <!-- <center><a href="page-two.html"><h1>Apache Cordova</h1></a></center>
+        <div><center></center></div> -->
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script>
+            function openref(){
+                location.href="page-two.html";
+            }
+        </script>
     </body>
 </html>
