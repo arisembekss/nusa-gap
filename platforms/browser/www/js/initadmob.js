@@ -48,3 +48,7 @@ function showInters(){
         autoShow: true
     });
 }
+
+function openref(url){
+    location.href=url;
+}

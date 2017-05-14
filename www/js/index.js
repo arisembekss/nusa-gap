@@ -45,6 +45,3 @@ var app = {
 
 app.initialize();
 
-function openref(url){
-                location.href=url;
-            }
